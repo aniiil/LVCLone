@@ -1,7 +1,7 @@
 import React from "react";
 import { BsImages } from "react-icons/bs";
 import ONE from "../img/One.webp";
-import TWO from "../img/Two.webp";
+import TWO from "../img/bag.webp";
 import THREE from "../img/Three.webp";
 import FOUR from "../img/Four.webp";
 import FIVE from "../img/Five.webp";

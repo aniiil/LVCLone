@@ -28,6 +28,7 @@
   .contact-content{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap-reverse;
     padding: 25px 0;    
   }
   .contact-info{
@@ -50,12 +51,49 @@
     padding-left: 15px !important;
     padding: 5px 0;
     outline: none;
-
+    border: none;
+    
     background-image: linear-gradient(to bottom right, #c3c0bf, rgb(251, 243, 243));
   }
   .form-btn{
 padding: 8px 15px;
-    max-width:150px;
+    width:151px;
     outline: none;
+    border: none;
     background-image: linear-gradient(to bottom right, #c3c0bf, rgb(251, 243, 243));
+  }
+  @media screen  and (max-width: 800px) {
+    .form-input{
+      width: 350px;
+    }
+  }
+
+
+  @media screen  and (max-width: 700px) {
+    .contact-title h1{
+      font-size: 25px;
+      max-width: 250px;
+
+    }
+    .contact-title  p{
+      width: 400px;
+      font-size: 12px;
+      margin: auto;
+    }
+  }
+
+  @media screen  and (max-width: 450px) {
+    .contact-title h1{
+      font-size: 25px;
+      max-width: 250px;
+
+    }
+    .contact-title  p{
+      width: 280px;
+      font-size: 12px;
+      margin: auto;
+    }
+    .form-input{
+      width: 280px;
+    }
   }

@@ -44,6 +44,10 @@
     width: 450px;
     border-radius: 10px;
   }
+   .about-img .ab-image:hover{
+    transform: scale(0.97);
+    transition: 0.5s ease-in-out;
+   }
   .about-text{
     padding: 0 25px;
    

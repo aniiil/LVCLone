@@ -5,7 +5,9 @@
     font-family: "Poppins", sans-serif;
   
   }
-
+.team-wrapper{
+  background-color: whitesmoke;
+}
   .design-text{
     text-align: center;
     padding: 100px 15px;
@@ -39,7 +41,7 @@
   .team-title h1{
     padding-top: 25px ;
     margin: auto auto 15px;
-    max-width: 350px;
+    max-width: 300px;
     border-bottom: 1px solid #000;
   }
   .team-title p{
@@ -63,11 +65,16 @@
     justify-content: center;
     border-bottom: 2px solid  rgb(127, 119, 119);
     border-radius: 0%;
+    background-image: linear-gradient(to bottom right, #c3c0bf, rgb(251, 243, 243));
   }
   .cimg{
    width: 250px;
    height: 300px;
 
+  }
+  .cimg:hover{
+    transform: scale(0.97);
+    transition: 0.5s ease-in-out;
   }
   .card-text{
     text-align: center;
@@ -89,6 +96,18 @@
     font-size: 25px;
   }
 
+.socials .fa{
+  color: #4867aa;
+}
+.socials .tw{
+  color: #1da1f2;
+}
+.socials .go{
+  color: #e94235;
+}
+.socials .lin{
+  color: #0077b5;
+}
   .clients-box{
     background-color: #fc8643;
     padding: 25px 0;
@@ -119,7 +138,8 @@
   }
   .client-cardbox{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 15px;
     flex-wrap: wrap;
     padding: 25px 100px ;
 
@@ -153,12 +173,69 @@
   .c-name .cl-text{
   font-size: 14px;
   }
+
+  @media screen  and (max-width: 1430px) {
+    .client-cardbox{
+padding: 25px 30px;
+    }
+
+
+  }
   
   @media screen  and (max-width: 900px) {
-
+  
     .team-title p{
         width: 650px;
         margin: auto;
         padding-bottom: 8px;
     }
   }
+    @media screen  and (max-width: 750px) {
+  .team-title p , .clients-title p{
+        width: 450px;
+        margin: auto;
+        padding-bottom: 8px;
+        font-size: 13px;
+    }
+    .team-title h1{
+   font-size: 25px;
+   width: 200px;
+  }
+  .clients-title h1{
+    font-size: 25px;
+  }
+
+    }
+
+    @media screen  and (max-width: 500px) {
+      .team-title p, .clients-title p{
+        width: 300px;
+        margin: auto;
+        padding-bottom: 8px;
+        font-size: 13px;
+    }
+    .team-title h1 {
+   font-size: 25px;
+   width: 200px;
+  }
+  .clients-title h1{
+    font-size: 20px;
+  }
+  .client-card{
+    width: 300px;
+    padding: 10px;
+  }
+  .review{
+    font-size: 13px;
+  }
+  .client-img{
+    width: 50px;
+    height: 50px;
+  }
+  .c-name .cl-name{
+    font-size: 18px;
+  }
+  .c-name .cl-text{
+    font-size: 13px;
+    }
+    }

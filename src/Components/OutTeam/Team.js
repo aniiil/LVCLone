@@ -34,10 +34,18 @@ const Team = () => {
                         <p className="name">Bernard Arnault</p>
                         <p className="post">Co-founder</p>
                         <div className="socials">
+                        <div className="fa">
                             <BsFacebook/>
+                            </div>
+                            <div className="tw">
                             <BsTwitter/>
-                            <BsGoogle/>
-                            <BsLinkedin/>
+                            </div>
+                           <div className="go">
+                           <BsGoogle/>
+                           </div>
+             <div className="lin">
+             <BsLinkedin/>
+             </div>
                         </div>
                     </div>
                 </div>
@@ -50,10 +58,18 @@ const Team = () => {
                         <p className="name">Michael Burke</p>
                         <p className="post">CEO</p>
                         <div className="socials">
+                        <div className="fa">
                             <BsFacebook/>
+                            </div>
+                            <div className="tw">
                             <BsTwitter/>
-                            <BsGoogle/>
-                            <BsLinkedin/>
+                            </div>
+                           <div className="go">
+                           <BsGoogle/>
+                           </div>
+             <div className="lin">
+             <BsLinkedin/>
+             </div>
                         </div>
                     </div>
                 </div>
@@ -66,10 +82,19 @@ const Team = () => {
                         <p className="name">Virgil Abloh</p>
                         <p className="post">Designer</p>
                         <div className="socials">
+                            <div className="fa">
                             <BsFacebook/>
+                            </div>
+                            <div className="tw">
                             <BsTwitter/>
-                            <BsGoogle/>
-                            <BsLinkedin/>
+                            </div>
+                           <div className="go">
+                           <BsGoogle/>
+                           </div>
+             <div className="lin">
+             <BsLinkedin/>
+             </div>
+                           
                         </div>
                     </div>
                 </div>
@@ -82,10 +107,18 @@ const Team = () => {
                         <p className="name">Nicolas Ghesquière</p>
                         <p className="post">Designer</p>
                         <div className="socials">
+                        <div className="fa">
                             <BsFacebook/>
+                            </div>
+                            <div className="tw">
                             <BsTwitter/>
-                            <BsGoogle/>
-                            <BsLinkedin/>
+                            </div>
+                           <div className="go">
+                           <BsGoogle/>
+                           </div>
+             <div className="lin">
+             <BsLinkedin/>
+             </div>
                         </div>
                     </div>
                 </div>
