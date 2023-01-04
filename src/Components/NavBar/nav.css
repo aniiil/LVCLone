@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+
+  /* font-family: 'Abyssinica SIL', serif; */
+}
+/* .container-fluid .nav_bg{
+  position: fixed;
+  top: 0;
+  width: 100%;
+} */
+.navbar {
+
+  background-color: #fc8643;
+  padding-bottom: 8px;
+
+}
+.navbar-nav {
+  margin-left: auto;
+  color: #fff;
+}
+
+.nav-item {
+  cursor: pointer;
+  color: whitesmoke;
+}
+
+
+.nav-link:hover {
+  color: rgb(90, 84, 84) !important;
+  font-weight: bold;
+  border-bottom: 2px solid #000;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler {
+  box-shadow: none;
+  border: none;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+

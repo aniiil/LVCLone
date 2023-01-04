@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  
+  }
+.about-wrapper{
+    padding: 20px 0;
+    /* background-color: #f86834;  */
+    background-color: #fc8643;
+}
+
+  .about-title{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .about-title h1{
+    padding-top: 25px ;
+    padding-bottom: 5px;
+    margin: auto auto 15px;
+    max-width: 300px;
+    border-bottom: 1px solid #000;
+  }
+  .about-title p{
+   text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+  }
+  .about-data{
+    display: flex;
+    justify-content: center;
+    padding: 15px 150px;
+  }
+  .about-img{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .about-img .ab-image{
+    width: 450px;
+    border-radius: 10px;
+  }
+  .about-text{
+    padding: 0 25px;
+   
+  }
+  .ab-title{
+   margin-left: 35px;
+   width: 200px;
+   text-align: center;
+   padding-bottom: 10px;
+    border-bottom: 2px solid #000;
+  }
+  .story{
+    padding-top: 35px;
+    margin-left: 35px;
+    font-size: 14px;
+    /* max-width: 500px; */
+    text-align: left;
+  }
+
+  @media screen  and (max-width: 1250px) {
+    .about-data{
+      padding: 15px 50px;
+    }
+    .about-text{
+      max-width: 500px;
+    }
+    .about-img .ab-image{
+      width: 380px;
+      border-radius: 10px;
+    }
+    .story{
+      font-size: 13px;
+    }
+  }
+  @media screen  and (max-width: 900px) {
+    .about-img .ab-image{
+      width: 300px;
+      border-radius: 10px;
+    }
+    .about-title p{
+      width: 650px;
+      text-align: center;
+      margin: auto;
+    }
+    .about-data{
+      padding: 15px 50px;
+    }
+  }
+  @media screen  and (max-width: 800px) {
+    .about-img .ab-image{
+      width: 300px;
+      border-radius: 10px;
+    }
+    .about-title p{
+      width: 650px;
+      text-align: center;
+      margin: auto;
+    }
+    
+  .about-data
+  {
+    flex-direction: column;
+    padding: 15px 50px;
+
+  }
+  .about-text{
+    margin: auto;
+    margin-top: 15px;
+  }
+  .story{
+    margin-left: 0;
+  }
+  }
+  @media screen  and (max-width: 700px) {
+    .about-title h1{
+      font-size: 25px;
+      max-width: 270px;
+
+    }
+    .about-title p{
+      font-size: 13px;
+    }
+    .about-data{
+      padding: 15px 50px;
+    }
+  }
+  @media screen  and (max-width: 650px) {
+
+    .about-title p{
+      width: 400px;
+      text-align: center;
+      margin: auto;
+      font-size: 13px;
+    }
+    .story{
+      margin-left: 0;
+    }
+  }
+  @media screen  and (max-width: 450px) {
+    .about-title h1{
+      font-size: 25px;
+      max-width: 250px;
+
+    }
+    .about-title p{
+      width: 280px;
+      font-size: 12px;
+    }
+    .about-data{
+      padding: 15px 10px;
+    }
+  }
+
+
+  

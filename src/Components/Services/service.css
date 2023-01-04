@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  
+  }
+.service-wrapper{
+    padding: 20px 0;
+}
+
+  .service-title{
+    text-align: center;
+  }
+  .service-title h1{
+    padding-top: 25px ;
+    margin: auto auto 15px;
+    max-width: 350px;
+    border-bottom: 1px solid #000;
+  }
+  .service-title p{
+    width: 950px;
+    margin: auto;
+    font-weight: 500;
+    font-size: 14px;
+  }
+  .service-items{
+    margin-top: 50px;
+    padding: 0 190px;
+  }
+  .sevice-row1 ,.sevice-row2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    padding: 15px 0;
+
+  }
+  .first-box{
+    display: flex;
+    width: 330px;
+    margin-top: 8px;
+    padding: 8px;
+  }
+  .service-icon .icon{
+    font-size: 75px;
+    padding-right: 15px;
+  }
+  .service-text{
+    padding-left: 10px;
+  }
+  .s-head{
+    font-weight: 600;
+    font-size: 22px;
+  }
+  .s-para{margin-bottom: 0;}
+
+  @media screen  and (max-width: 1422px) {
+    .service-items {
+      padding: 0 90px;
+    }
+  }
+  @media screen  and (max-width: 1220px) {
+    .service-items {
+      padding: 0 30px;
+    }
+    .first-box{
+      
+      width: 300px;
+    }
+    .service-icon .icon{
+      font-size: 65px;
+    }
+    .s-para{
+      font-size: 14px;
+    }
+    .service-title p{
+      width: 650px;
+      font-size: 14px;
+    }
+  }
+
+  @media screen  and (max-width: 700px) {
+    .service-title h1{
+      font-size: 25px;
+      max-width: 250px;
+
+    }
+    .service-title p{
+      width: 400px;
+      font-size: 12px;
+    }
+  }
+
+  @media screen  and (max-width: 450px) {
+    .service-title h1{
+      font-size: 25px;
+      max-width: 250px;
+
+    }
+    .service-title p{
+      width: 280px;
+      font-size: 12px;
+    }
+  }

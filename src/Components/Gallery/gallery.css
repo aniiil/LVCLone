@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  
+  }
+.gallery-wrapper{
+    padding: 25px 0;
+}
+  
+  .gallery-title{
+    text-align: center;
+  }
+  .gallery-title h1{
+    padding-top: 25px ;
+    padding-bottom: 5px;
+    margin: auto auto 15px;
+    max-width: 260px;
+    border-bottom: 1px solid #000;
+  }
+  .gallery-title p{
+   
+    font-weight: 500;
+    font-size: 14px;
+  }
+
+  .first-gallery{
+    padding: 25px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+  }
+  .gimg-box{
+    width: 300px;
+    background-image: linear-gradient(to bottom right, #c3c0bf, rgb(251, 243, 243));
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+  }
+  .one{
+    width: 200px;
+
+  }

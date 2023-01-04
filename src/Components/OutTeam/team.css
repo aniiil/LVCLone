@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  
+  }
+
+  .design-text{
+    text-align: center;
+    padding: 100px 15px;
+    background-image: url(../img/bg.jpg);
+    color: whitesmoke;
+    
+
+  }
+  .main-text{
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 8px;
+
+  }
+  .d-text{
+    font-size: 22px;
+    font-weight: bolder;
+    word-spacing: 0.02cm;
+    margin-bottom: 8px;
+
+  }
+  .lower-text{
+    font-size: 14px;
+  }
+  .team-box{
+    padding: 20px 0;
+  }
+  .team-title{
+    text-align: center;
+  }
+  .team-title h1{
+    padding-top: 25px ;
+    margin: auto auto 15px;
+    max-width: 350px;
+    border-bottom: 1px solid #000;
+  }
+  .team-title p{
+   
+    font-weight: 500;
+    font-size: 14px;
+  }
+  .team-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 100px;
+    gap: 25px;
+  }
+  .t-card{
+    width: 300px;
+    border: 2px solid rgb(127, 119, 119);
+  }
+  .card-img{
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid  rgb(127, 119, 119);
+    border-radius: 0%;
+  }
+  .cimg{
+   width: 250px;
+   height: 300px;
+
+  }
+  .card-text{
+    text-align: center;
+    padding-top: 25px;  
+  }
+  .name{
+    font-weight: bolder;
+    font-size: 20px;
+  }
+  .post{
+    font-weight: 400;
+  }
+  .socials{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    
+    padding-bottom: 20px ; 
+    font-size: 25px;
+  }
+
+  .clients-box{
+    background-color: #fc8643;
+    padding: 25px 0;
+
+  }
+  .clients-title{
+    text-align: center;
+    display: flex;align-items: center;
+    flex-direction: column;
+  }
+  .clients-title h1{
+    padding-top: 25px ;
+    padding-bottom: 5px;
+    margin: auto auto 15px;
+    /* max-width: 300px */
+    border-bottom: 1px solid #000;
+  }
+  .clients-title p{
+   
+    font-weight: 500;
+    font-size: 14px;
+    max-width: 950px;
+  }
+  .clients-title .c-icon{
+    padding-left: 10px;
+    padding-top: 0;
+    font-size: 20px;
+  }
+  .client-cardbox{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 25px 100px ;
+
+  }
+  .client-card{
+    max-width: 400px;
+    background-image: url(../img/bg.jpg);
+    color: whitesmoke;
+    padding: 25px;
+    border-radius: 10px;
+  }
+
+  .review{
+  text-align: left;
+  font-size: 15px;
+  }
+  .client-data{
+    display: flex;
+  }
+  .client-img{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-right: 25px;
+  }
+  .c-name .cl-name{
+   font-weight: 900;
+   font-size: 20px;
+   margin-bottom: 5px;
+  }
+  .c-name .cl-text{
+  font-size: 14px;
+  }
+  
+  @media screen  and (max-width: 900px) {
+
+    .team-title p{
+        width: 650px;
+        margin: auto;
+        padding-bottom: 8px;
+    }
+  }

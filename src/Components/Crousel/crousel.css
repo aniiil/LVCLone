@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  
+  }
+
+  .carousel-item img{
+   max-height:592px;
+   
+    /* width:  auto !important; */
+    /* background-size: contain; */
+  }

@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  
+  }
+  .contact-wrapper{
+    background-color: #fc8643;
+
+  }
+
+  .contact-title{
+    text-align: center;
+  }
+  .contact-title h1{
+    padding-top: 25px ;
+    padding-bottom: 5px;
+    margin: auto auto 15px;
+    max-width: 360px;
+    border-bottom: 1px solid #000;
+  }
+  .contact-title p{
+   
+    font-weight: 500;
+    font-size: 14px;
+  }
+  .contact-content{
+    display: flex;
+    justify-content: center;
+    padding: 25px 0;    
+  }
+  .contact-info{
+    width: 400px;
+    padding: 25px;
+  }
+  .contact-info p{
+    width: 200px;
+  }
+.contact-form{
+    padding:  0 25px;
+}
+  .form-input{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+  }
+  .input-filed{
+    margin-bottom: 16px;
+    padding-left: 15px !important;
+    padding: 5px 0;
+    outline: none;
+
+    background-image: linear-gradient(to bottom right, #c3c0bf, rgb(251, 243, 243));
+  }
+  .form-btn{
+padding: 8px 15px;
+    max-width:150px;
+    outline: none;
+    background-image: linear-gradient(to bottom right, #c3c0bf, rgb(251, 243, 243));
+  }
