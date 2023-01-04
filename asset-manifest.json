@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/LVCLone/static/css/main.09a12785.css",
-    "main.js": "/LVCLone/static/js/main.05aa6b7c.js",
+    "main.css": "/LVCLone/static/css/main.d617f39b.css",
+    "main.js": "/LVCLone/static/js/main.0c3561ff.js",
     "static/media/design.webp": "/LVCLone/static/media/design.73222c3b232888350fe9.webp",
     "static/media/bg.jpg": "/LVCLone/static/media/bg.786b277d6357bcdba5bc.jpg",
     "static/media/C6.webp": "/LVCLone/static/media/C6.cf13bdd591f3213da55c.webp",
@@ -12,9 +12,9 @@
     "static/media/One.webp": "/LVCLone/static/media/One.6e932cd90c11d4b013f6.webp",
     "static/media/C11.jpg": "/LVCLone/static/media/C11.d8c8828e452bc749d33f.jpg",
     "static/media/client2.jpeg": "/LVCLone/static/media/client2.f935657fab078a843ac5.jpeg",
+    "static/media/bag.webp": "/LVCLone/static/media/bag.793cda25f49184a14cd4.webp",
     "static/media/Five.webp": "/LVCLone/static/media/Five.21fac27cd9b88faa586d.webp",
     "static/media/CEO.jpg": "/LVCLone/static/media/CEO.8a62161ac162e436ed69.jpg",
-    "static/media/Two.webp": "/LVCLone/static/media/Two.6dc8d1245f6adb22720f.webp",
     "static/media/client3.jpg": "/LVCLone/static/media/client3.2b7de6c87bb3c87dc797.jpg",
     "static/media/client1.jpg": "/LVCLone/static/media/client1.d95ddf1725a6070cf3bf.jpg",
     "static/media/Six.webp": "/LVCLone/static/media/Six.024217f49131f5526b72.webp",
@@ -23,11 +23,11 @@
     "static/media/Eight.webp": "/LVCLone/static/media/Eight.ccba59eeaaf21c8393f7.webp",
     "static/media/Four.webp": "/LVCLone/static/media/Four.6849a6481f975584b133.webp",
     "index.html": "/LVCLone/index.html",
-    "main.09a12785.css.map": "/LVCLone/static/css/main.09a12785.css.map",
-    "main.05aa6b7c.js.map": "/LVCLone/static/js/main.05aa6b7c.js.map"
+    "main.d617f39b.css.map": "/LVCLone/static/css/main.d617f39b.css.map",
+    "main.0c3561ff.js.map": "/LVCLone/static/js/main.0c3561ff.js.map"
   },
   "entrypoints": [
-    "static/css/main.09a12785.css",
-    "static/js/main.05aa6b7c.js"
+    "static/css/main.d617f39b.css",
+    "static/js/main.0c3561ff.js"
   ]
 }
